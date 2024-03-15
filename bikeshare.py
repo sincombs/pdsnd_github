@@ -168,7 +168,7 @@ def user_stats(df):
     print('-'*40)
 
 
-def main():
+def main(): # continues to loop through stats if user supplies input
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
