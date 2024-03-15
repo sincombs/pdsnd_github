@@ -1,3 +1,6 @@
+### Date created
+This project was created: 03/14/2024
+
 # Bikeshare Data Stats
 
 Perform key statistics of available bikeshare data.
