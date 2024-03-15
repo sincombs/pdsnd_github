@@ -102,3 +102,6 @@ This project is licensed under the License.
 
 ## Acknowledgments
 I would like to thank Udacity.
+
+## Credits
+Link to original [Udacity GitHub Repo](https://github.com/udacity/pdsnd_github).
