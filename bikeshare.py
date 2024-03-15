@@ -92,13 +92,13 @@ def time_stats(df):
     print('\nCalculating The Most Frequent Times of Travel...\n')
     start_time = time.time()
 
-    # display the most common month
+    # display the most common month by removing NaN values and using mode
     print("Most common month: {}".format(df['month'].dropna().mode().values[0] ))
 
-    # display the most common day of week
+    # display the most common day of week by removing NaN values and using mode
     print("Most common day of week: {}".format(df['day_of_week'].dropna().mode().values[0]))
 
-    # display the most common start hour
+    # display the most common start hour by removing NaN values and using mode
     print("Most common start hour: {}".format(df['Start Time'].dt.hour.dropna().mode().values[0] ))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
